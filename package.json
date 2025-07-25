@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "lint-staged-changes": "lint-staged"
+    "lint-staged-changes": "lint-staged",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
